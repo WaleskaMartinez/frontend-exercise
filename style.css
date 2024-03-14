@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
-
-
 *{
     margin:0;
     padding: 0;
@@ -105,12 +103,19 @@ body{
     align-items: center;
     margin-bottom: 50px;
   }
+
+  .starscontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+  
   .cards{
     background-color: hsl(300, 43%, 22%);
     border-radius: 10px;
   }
-
-  
 
   .attribution {
     font-size: 11px;
